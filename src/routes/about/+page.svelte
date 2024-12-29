@@ -1,3 +1,8 @@
+<script lang="ts">
+  import "webcomponentsvelte5/components/counter";
+  import "webcomponentsvelte5/components/counterDisplay";
+</script>
+
 <svelte:head>
   <title>About</title>
   <meta name="description" content="About this app" />
@@ -5,6 +10,9 @@
 
 <div class="text-column">
   <h1>About this app !!!</h1>
+
+  <counter-component buttonheader="My Counter"></counter-component>
+  <counterdisplay-component></counterdisplay-component>
 
   <p>
     This is a <a href="https://svelte.dev/docs/kit">SvelteKit</a> app. You can make your own by typing the following into
