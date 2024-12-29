@@ -8,11 +8,5 @@ import { dev } from "$app/environment";
 // it so that it gets served as a static asset in production
 export const prerender = true;
 
-// Nous avons besoin de JavaScript pour les web components
-// export const csr = true;
-
-// Désactivons le prerendering car nous avons besoin de JavaScript
-// export const prerender = false;
-
-// Désactivons le SSR pour éviter les erreurs avec customElements
+// Disable SSR to avoid errors with customElements
 export const ssr = false;

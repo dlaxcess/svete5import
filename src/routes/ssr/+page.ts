@@ -8,11 +8,5 @@ export const csr = dev;
 // it so that it gets served as a static asset in production
 export const prerender = true;
 
-// Nous avons besoin de JavaScript pour les web components
-// export const csr = true;
-
-// Désactivons le prerendering car nous avons besoin de JavaScript
-// export const prerender = false;
-
-// Désactivons le SSR pour éviter les erreurs avec customElements
-// export const ssr = false;
+// SSR mode
+export const ssr = true;
