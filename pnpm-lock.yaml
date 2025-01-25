@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       webcomponentsvelte5:
-        specifier: github:dlaxcess/webcomponentSvelte5
-        version: https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/77782631b3adbc086d136c7f1240b9aaee7ff4bc
+        specifier: github:dlaxcess/webcomponentSvelte5#master
+        version: https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/8e89d5a83529a6b23046b5ddb6cf0db17714ba82
     devDependencies:
       '@fontsource/fira-mono':
         specifier: ^5.0.0
@@ -543,9 +543,9 @@ packages:
       vite:
         optional: true
 
-  webcomponentsvelte5@https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/77782631b3adbc086d136c7f1240b9aaee7ff4bc:
-    resolution: {tarball: https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/77782631b3adbc086d136c7f1240b9aaee7ff4bc}
-    version: 0.0.1
+  webcomponentsvelte5@https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/8e89d5a83529a6b23046b5ddb6cf0db17714ba82:
+    resolution: {tarball: https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/8e89d5a83529a6b23046b5ddb6cf0db17714ba82}
+    version: 0.0.2
 
   zimmerframe@1.1.2:
     resolution: {integrity: sha512-rAbqEGa8ovJy4pyBxZM70hg4pE6gDgaQ0Sl9M3enG3I0d6H4XSAM3GeNGLKnsBpuijUow064sf7ww1nutC5/3w==}
@@ -943,6 +943,6 @@ snapshots:
     optionalDependencies:
       vite: 5.4.11
 
-  webcomponentsvelte5@https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/77782631b3adbc086d136c7f1240b9aaee7ff4bc: {}
+  webcomponentsvelte5@https://codeload.github.com/dlaxcess/webcomponentSvelte5/tar.gz/8e89d5a83529a6b23046b5ddb6cf0db17714ba82: {}
 
   zimmerframe@1.1.2: {}
